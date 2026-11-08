@@ -1,0 +1,26 @@
+# Core data handling
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+
+# Visualization
+matplotlib>=3.7.0,<4.0.0
+seaborn>=0.12.0,<1.0.0
+plotly>=5.17.0,<6.0.0
+
+# Machine learning
+scikit-learn>=1.3.0,<2.0.0
+
+# Model interpretability (for SHAP analysis in your report)
+shap>=0.44.0,<1.0.0
+
+# Streamlit app framework
+streamlit>=1.28.0,<2.0.0
+
+# Optional: for nicer interactive dataframes in Streamlit
+streamlit-aggrid>=0.3.4,<1.0.0
+
+# Optional: for saving/loading trained models
+joblib>=1.3.0,<2.0.0
+
+# Optional: for reading Excel files (if any of your data is .xlsx)
+openpyxl>=3.1.0,<4.0.0
